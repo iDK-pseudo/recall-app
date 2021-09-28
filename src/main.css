@@ -1,0 +1,59 @@
+#container{
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    color: white;
+    font-size: 60px;
+    padding-left : 10px;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(1 93 121);
+}
+
+#score-container{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: lightgreen;
+}
+
+#score-container p{
+    justify-self: center;
+    font-weight: bold;
+}
+
+#card-container{
+    padding: 5%;
+}
+
+
+#card{
+    display: grid;
+    background-color: white;
+    justify-content: center;
+    padding: 10%;
+    box-shadow: 5px 10px 20px hsl(0deg 0% 0% / 1);
+}
+
+#card p{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+
+#footer button{
+    font-size: 20px;
+    width: 50%;
+    height: 80px;
+}
