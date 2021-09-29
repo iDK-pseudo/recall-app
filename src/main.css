@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@700&display=swap');
+
 #container{
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 #title {
     color: white;
     font-size: 60px;
-    padding-left : 10px;
+    padding : 5px 0px 10px 10px;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(1 93 121);
@@ -28,6 +30,7 @@
 
 #card-container{
     padding: 5%;
+    background-color: lightgreen;
 }
 
 
@@ -36,14 +39,27 @@
     background-color: white;
     justify-content: center;
     padding: 10%;
+    padding-bottom: 5%;
     box-shadow: 5px 10px 20px hsl(0deg 0% 0% / 1);
 }
 
+#card div{
+    height: 210px;
+}
+
+#card img{
+    height: 210px;
+    margin: 0;
+}
+
 #card p{
-    color: black;
+    color: rgb(1 93 121);
     font-size: 30px;
     text-align: center;
-    text-decoration: underline;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #footer{

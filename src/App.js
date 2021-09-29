@@ -1,18 +1,21 @@
-import { Header } from "./Components/Header.js";
-import { Score } from "./Components/Score.js";
-import { Card } from "./Components/Card.js";
-import { Footer } from "./Components/Footer.js";
+import { Header } from "./components/Header.js";
+import { Score } from "./components/Score.js";
+import { Card } from "./components/Card.js";
+import { Footer } from "./components/Footer.js";
 import "./main.css";
+import { Component } from "react";
 
-function App() {
-  return (
-    <div id="container">
-      <Header/>
-      <Score/>
-      <Card/>
-      <Footer/>
-    </div>
-  );
+class App extends Component {
+render(){
+    return (
+      <div id="container">
+        <Header/>
+        <Score/>
+        <Card/>
+        <Footer/>
+      </div>
+    );
+  }
 }
 
 export default App;
