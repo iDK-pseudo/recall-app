@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/recall-app/static/css/main.247e5c13.chunk.css",
+    "main.js": "/recall-app/static/js/main.7713640f.chunk.js",
+    "main.js.map": "/recall-app/static/js/main.7713640f.chunk.js.map",
+    "runtime-main.js": "/recall-app/static/js/runtime-main.6520d545.js",
+    "runtime-main.js.map": "/recall-app/static/js/runtime-main.6520d545.js.map",
+    "static/js/2.2e1837de.chunk.js": "/recall-app/static/js/2.2e1837de.chunk.js",
+    "static/js/2.2e1837de.chunk.js.map": "/recall-app/static/js/2.2e1837de.chunk.js.map",
+    "index.html": "/recall-app/index.html",
+    "static/css/main.247e5c13.chunk.css.map": "/recall-app/static/css/main.247e5c13.chunk.css.map",
+    "static/js/2.2e1837de.chunk.js.LICENSE.txt": "/recall-app/static/js/2.2e1837de.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6520d545.js",
+    "static/js/2.2e1837de.chunk.js",
+    "static/css/main.247e5c13.chunk.css",
+    "static/js/main.7713640f.chunk.js"
+  ]
+}
