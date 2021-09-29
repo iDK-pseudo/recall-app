@@ -1,7 +1,7 @@
 export const Footer = (props) => {
     return (
         <div id="footer">
-            <button> Next </button>
+            <button onClick={props.handleFirstTimeClick}> First Time </button>
             <button> Can't Fool Me </button>
         </div>
     );
