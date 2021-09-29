@@ -9,7 +9,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      pokemonIndex: Math.floor(Math.random()*30),
+      pokemonIndex: Math.floor(Math.random()*10),
       score: 0,
       bestScore: 0,
       passed: new Set(),
@@ -17,10 +17,11 @@ class App extends Component {
   }
 
   handleFirstTimeClick = () => {
-    const newIndex = Math.floor(Math.random()*30);
     const {pokemonIndex,score,bestScore,passed} = this.state;
+    let newIndex = 0;
+    while((newIndex=Math.floor(Math.random()*30))===pokemonIndex);
     if(passed.has(pokemonIndex)){
-      alert("Over");
+      console.log("Over");
       this.setState({
         score: 0,
         pokemonIndex: newIndex,
