@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/recall-app/static/css/main.247e5c13.chunk.css",
-    "main.js": "/recall-app/static/js/main.8561ea72.chunk.js",
-    "main.js.map": "/recall-app/static/js/main.8561ea72.chunk.js.map",
+    "main.js": "/recall-app/static/js/main.26f8d6fb.chunk.js",
+    "main.js.map": "/recall-app/static/js/main.26f8d6fb.chunk.js.map",
     "runtime-main.js": "/recall-app/static/js/runtime-main.6520d545.js",
     "runtime-main.js.map": "/recall-app/static/js/runtime-main.6520d545.js.map",
     "static/js/2.41943bee.chunk.js": "/recall-app/static/js/2.41943bee.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.6520d545.js",
     "static/js/2.41943bee.chunk.js",
     "static/css/main.247e5c13.chunk.css",
-    "static/js/main.8561ea72.chunk.js"
+    "static/js/main.26f8d6fb.chunk.js"
   ]
 }
