@@ -73,3 +73,30 @@
     width: 50%;
     height: 80px;
 }
+
+#game-over {
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    margin:0;
+    height: 70vh;
+    font-size: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#reset-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: darksalmon;
+    border-radius: 50%;
+    box-shadow: 3px 8px 5px hsl(0deg 0% 0% / 1);
+}
+
+#reset-button img{
+    padding: 5%;
+    height: 50px
+}
