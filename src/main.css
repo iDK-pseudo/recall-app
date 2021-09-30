@@ -1,16 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@700&display=swap&&family=Alfa+Slab+One&display=swap&&family=Staatliches&display=swap');
+
+html,body{
+    margin:0;
+    height: 98%;
+    background-color: #189AB4
+}
+
+#root {
+    height: 100%;
+}
 
 #container{
-    margin: 0;
-    padding: 0;
+    height: 100%;
 }
 
 #title {
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     padding : 5px 0px 10px 10px;
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Alfa Slab One',cursive;
     background-color: rgb(1 93 121);
 }
 
@@ -18,19 +27,31 @@
     display:grid;
     grid-template-columns: auto auto;
     justify-content: space-evenly;
-    font-size: 20px;
-    font-family: monospace;
-    background-color: lightgreen;
+    background-color: #189AB4;
 }
 
-#score-container p{
+.score-title {
     justify-self: center;
     font-weight: bold;
+    color: white;
+    font-family: 'Staatliches',cursive;
+    font-size: 25px;
+}
+
+.score-value {
+    justify-self: center;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Alfa Slab One',cursive;
 }
 
 #card-container{
     padding: 5%;
-    background-color: lightgreen;
+    background-color: #189AB4;
+    min-height: 5%;
+    max-height: 50%; 
 }
 
 
@@ -39,12 +60,10 @@
     background-color: white;
     justify-content: center;
     padding: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 0;
     box-shadow: 5px 10px 20px hsl(0deg 0% 0% / 1);
-}
-
-#card div{
-    height: 210px;
+    border-radius: 10px;
+    margin-bottom: 20%;
 }
 
 #card img{
@@ -59,30 +78,37 @@
     font-family: 'Noto Sans Display', sans-serif;
     font-weight: bold;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 #footer{
     display: flex;
     justify-content: space-evenly;
-    margin: 3%;
+    margin:0;
+    padding: 0;
+    height: 15%;
 }
 
 #footer button{
-    font-size: 20px;
+    font-size: 25px;
     width: 50%;
-    height: 80px;
+    height: 100%;
+    background-color: #05445E;
+    color: white;
+    border:5px solid white;
+    font-family: 'Alfa Slab One',cursive;
 }
 
 #game-over {
     display: flex;
     flex-direction: column;
-    background-color: lightpink;
+    background-color: #189AB4;
     margin:0;
     height: 70vh;
-    font-size: 60px;
+    font-size: 50px;
     align-items: center;
     justify-content: space-evenly;
+    color: white;
+    font-family: 'Alfa Slab One',cursive;
 }
 
 #reset-button {
@@ -91,12 +117,13 @@
     align-items: center;
     height: 100px;
     width: 100px;
-    background-color: darksalmon;
+    background-color: rgb(1 93 121);
     border-radius: 50%;
     box-shadow: 3px 8px 5px hsl(0deg 0% 0% / 1);
 }
 
 #reset-button img{
     padding: 5%;
-    height: 50px
+    height: 50px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(253deg) brightness(105%) contrast(104%);
 }

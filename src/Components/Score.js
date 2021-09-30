@@ -2,10 +2,10 @@ export const Score = (props) => {
     const {score, bestScore} = props;
     return (
         <div id="score-container">
-            <p> Score</p>
-            <p> Best Score</p>
-            <p> {score} </p>
-            <p> {bestScore} </p>
+            <p class="score-title"> Score</p>
+            <p class="score-title"> Best Score</p>
+            <p class="score-value"> {score} </p>
+            <p class="score-value">  {bestScore} </p>
         </div>
     );
 }
