@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/recall-app/static/css/main.b770d2a8.chunk.css",
-    "main.js": "/recall-app/static/js/main.f053c078.chunk.js",
-    "main.js.map": "/recall-app/static/js/main.f053c078.chunk.js.map",
+    "main.js": "/recall-app/static/js/main.37480b37.chunk.js",
+    "main.js.map": "/recall-app/static/js/main.37480b37.chunk.js.map",
     "runtime-main.js": "/recall-app/static/js/runtime-main.6520d545.js",
     "runtime-main.js.map": "/recall-app/static/js/runtime-main.6520d545.js.map",
-    "static/js/2.41943bee.chunk.js": "/recall-app/static/js/2.41943bee.chunk.js",
-    "static/js/2.41943bee.chunk.js.map": "/recall-app/static/js/2.41943bee.chunk.js.map",
+    "static/js/2.e704513b.chunk.js": "/recall-app/static/js/2.e704513b.chunk.js",
+    "static/js/2.e704513b.chunk.js.map": "/recall-app/static/js/2.e704513b.chunk.js.map",
     "index.html": "/recall-app/index.html",
     "static/css/main.b770d2a8.chunk.css.map": "/recall-app/static/css/main.b770d2a8.chunk.css.map",
-    "static/js/2.41943bee.chunk.js.LICENSE.txt": "/recall-app/static/js/2.41943bee.chunk.js.LICENSE.txt",
+    "static/js/2.e704513b.chunk.js.LICENSE.txt": "/recall-app/static/js/2.e704513b.chunk.js.LICENSE.txt",
     "static/media/redo-solid.a5b2707d.svg": "/recall-app/static/media/redo-solid.a5b2707d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6520d545.js",
-    "static/js/2.41943bee.chunk.js",
+    "static/js/2.e704513b.chunk.js",
     "static/css/main.b770d2a8.chunk.css",
-    "static/js/main.f053c078.chunk.js"
+    "static/js/main.37480b37.chunk.js"
   ]
 }
