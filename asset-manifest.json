@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/recall-app/static/css/main.aff454ca.chunk.css",
-    "main.js": "/recall-app/static/js/main.f12a8dbf.chunk.js",
-    "main.js.map": "/recall-app/static/js/main.f12a8dbf.chunk.js.map",
+    "main.css": "/recall-app/static/css/main.2b1e179f.chunk.css",
+    "main.js": "/recall-app/static/js/main.39440aad.chunk.js",
+    "main.js.map": "/recall-app/static/js/main.39440aad.chunk.js.map",
     "runtime-main.js": "/recall-app/static/js/runtime-main.6520d545.js",
     "runtime-main.js.map": "/recall-app/static/js/runtime-main.6520d545.js.map",
     "static/js/2.e704513b.chunk.js": "/recall-app/static/js/2.e704513b.chunk.js",
     "static/js/2.e704513b.chunk.js.map": "/recall-app/static/js/2.e704513b.chunk.js.map",
     "index.html": "/recall-app/index.html",
-    "static/css/main.aff454ca.chunk.css.map": "/recall-app/static/css/main.aff454ca.chunk.css.map",
+    "static/css/main.2b1e179f.chunk.css.map": "/recall-app/static/css/main.2b1e179f.chunk.css.map",
     "static/js/2.e704513b.chunk.js.LICENSE.txt": "/recall-app/static/js/2.e704513b.chunk.js.LICENSE.txt",
-    "static/media/redo-solid.a5b2707d.svg": "/recall-app/static/media/redo-solid.a5b2707d.svg",
-    "static/media/thumbs-down-solid.04abceb2.svg": "/recall-app/static/media/thumbs-down-solid.04abceb2.svg",
-    "static/media/thumbs-up-solid.93e65586.svg": "/recall-app/static/media/thumbs-up-solid.93e65586.svg"
+    "static/media/check-double-solid.3686f8f2.svg": "/recall-app/static/media/check-double-solid.3686f8f2.svg",
+    "static/media/check-solid.5dcf9568.svg": "/recall-app/static/media/check-solid.5dcf9568.svg",
+    "static/media/redo-solid.a5b2707d.svg": "/recall-app/static/media/redo-solid.a5b2707d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6520d545.js",
     "static/js/2.e704513b.chunk.js",
-    "static/css/main.aff454ca.chunk.css",
-    "static/js/main.f12a8dbf.chunk.js"
+    "static/css/main.2b1e179f.chunk.css",
+    "static/js/main.39440aad.chunk.js"
   ]
 }
